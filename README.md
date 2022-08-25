@@ -90,7 +90,8 @@ var pipeline=[
 ];
 db.student.aggregate(pipeline);
 
-
+## select only specific feilds
+db.student.find({},{"University":1,_id:0})  // 1 to show field and 0 to hide that field
 
 
 
