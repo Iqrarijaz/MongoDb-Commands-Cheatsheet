@@ -48,15 +48,23 @@ db.comments.remove({name: 'iqrar'})
 
 ## 7. Less than/Greater than/ Less than or Eq/Greater than or Eq
 db.student.find({age: {$lt: 20}}) // for age less than 20
+db.student.find({"age": { $lte:30}  })
+
 db.student.find({age: {$gt: 20}}) // for age greater than 20
 db.student.find({age: {$lte: 20}})  // for less than or equals to 20
 db.student.find({age: {$gte: 20}}) // for age greater than 20 or equals to 20
 
- 
+### or Operator
+db.student.find({$or:[{"name": "fahad"},{"age":{$lt:30}}]})
 
 
+### And Operator
+db.student.find({$and:[{"name": "fahad"},{"age":{$lte:30}}]})
+
+![Screenshot from 2022-08-25 16-42-00](https://user-images.githubusercontent.com/61549744/186655655-88fb7545-b0c1-4687-bd48-03e4b083f68c.png)
 
 
+![Screenshot from 2022-08-25 16-40-52](https://user-images.githubusercontent.com/61549744/186655663-c9862a02-ba1f-48b4-8dfb-5563998cec56.png)
 
 
 
