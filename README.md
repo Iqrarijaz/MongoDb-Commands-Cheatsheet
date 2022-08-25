@@ -1,4 +1,5 @@
 # MongoDB Commands
+![MongoDB_Logo svg](https://user-images.githubusercontent.com/61549744/186645973-512d242c-f053-470b-989a-725567c1530f.png)
 In this GitHub repository , I will post comprehensive list of all the MongoDB commands you will ever need as a MongoDB beginner. This list covers almost all the most used commands in MongoDB.
 
 
@@ -21,6 +22,7 @@ show collections
 
 ### Create a collection named 'student'
 db.createCollection('student')
+
 
 ### Drop a collection named 'student'
 db.comments.drop()
