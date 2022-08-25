@@ -73,8 +73,21 @@ db.student.find({$and:[{"name": "fahad"},{"age":{$lte:30}}]})
 
 ### Sorting order
 
-![Screenshot from 2022-08-25 16-55-13](ht![Screenshot from 2022-08-25 16-55-51](https://user-images.githubusercontent.com/61549744/186658284-5bd94f41-536a-4cfe-93be-dbfc7ffefbea.png)
-tps://user-images.githubusercontent.com/61549744/186658259-4a967194-d3c4-4900-a040-8e9b102c216f.png)
+![Screenshot from 2022-08-25 16-55-13](https://user-images.githubusercontent.com/61549744/186658453-78eec681-0f82-479b-a17a-3216f902a619.png)
 
-![Screenshot from 2022-08-25 16-57-15](https://user-images.githubusercontent.com/61549744/186658314-d6592289-4f26-458d-9fc0-4049707cf85a.png)
+
+![Screenshot from 2022-08-25 16-55-51](https://user-images.githubusercontent.com/61549744/186658509-0b7eb4ca-1964-416b-87ef-2749b30cacbc.png)
+
+
+
+![Screenshot from 2022-08-25 16-57-15](https://user-images.githubusercontent.com/61549744/186658526-df3e4452-2f2b-4d80-b3c2-4af9ce9f7d55.png)
+
+
+
+
+
+
+
+
+
 
