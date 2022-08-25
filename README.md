@@ -24,3 +24,13 @@ db.createCollection('student')
 
 ### Drop a collection named 'student'
 db.comments.drop()
+
+## 3. Row(Document) Commands
+### Show all Rows in a Collection 
+db.comments.find()
+
+### Show all Rows in a Collection (Prettified)
+db.comments.find().pretty()
+
+### Find the first row matching the object
+db.comments.findOne({name: 'Iqrar'})
