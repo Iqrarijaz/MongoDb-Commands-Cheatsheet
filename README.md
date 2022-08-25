@@ -82,6 +82,13 @@ db.student.find({$and:[{"name": "fahad"},{"age":{$lte:30}}]})
 
 ![Screenshot from 2022-08-25 16-57-15](https://user-images.githubusercontent.com/61549744/186658526-df3e4452-2f2b-4d80-b3c2-4af9ce9f7d55.png)
 
+var pipeline=[
+    
+    { $sort: {'name':1}},
+    {$limit:2}
+    
+];
+db.student.aggregate(pipeline);
 
 
 
