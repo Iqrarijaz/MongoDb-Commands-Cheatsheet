@@ -67,5 +67,14 @@ db.student.find({$and:[{"name": "fahad"},{"age":{$lte:30}}]})
 ![Screenshot from 2022-08-25 16-40-52](https://user-images.githubusercontent.com/61549744/186655663-c9862a02-ba1f-48b4-8dfb-5563998cec56.png)
 
 
+## Aggregation in MongDb
 
+![Screenshot from 2022-08-25 16-52-31](https://user-images.githubusercontent.com/61549744/186657350-bbe0fe42-2612-4c1b-bdf9-3ab00c7cb160.png)
+
+### Sorting order
+
+![Screenshot from 2022-08-25 16-55-13](ht![Screenshot from 2022-08-25 16-55-51](https://user-images.githubusercontent.com/61549744/186658284-5bd94f41-536a-4cfe-93be-dbfc7ffefbea.png)
+tps://user-images.githubusercontent.com/61549744/186658259-4a967194-d3c4-4900-a040-8e9b102c216f.png)
+
+![Screenshot from 2022-08-25 16-57-15](https://user-images.githubusercontent.com/61549744/186658314-d6592289-4f26-458d-9fc0-4049707cf85a.png)
 
