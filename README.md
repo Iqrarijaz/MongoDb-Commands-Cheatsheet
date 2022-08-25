@@ -41,7 +41,16 @@ db.comments.find({name:'iqrar'})
 ## 5. Update a row
 db.student.updateOne({ name: 'iqrar' }, { $set: { 'name': 'Malik', 'age': 22 } })
 
+## 6. Delete Row 
+db.comments.remove({name: 'iqrar'})
 
+## 7. Less than/Greater than/ Less than or Eq/Greater than or Eq
+db.student.find({age: {$lt: 20}}) // for age less than 20
+db.student.find({age: {$gt: 20}}) // for age greater than 20
+db.student.find({age: {$lte: 20}})  // for less than or equals to 20
+db.student.find({age: {$gte: 20}}) // for age greater than 20 or equals to 20
+
+ 
 
 
 
