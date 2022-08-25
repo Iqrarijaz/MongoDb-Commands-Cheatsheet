@@ -34,3 +34,19 @@ db.comments.find().pretty()
 
 ### Find the first row matching the object
 db.comments.findOne({name: 'Iqrar'})
+
+## 4. Search in a MongoDb Database
+db.comments.find({name:'iqrar'})
+
+## 5. Update a row
+db.student.updateOne({ name: 'iqrar' }, { $set: { 'name': 'Malik', 'age': 22 } })
+
+
+
+
+
+
+
+
+
+
