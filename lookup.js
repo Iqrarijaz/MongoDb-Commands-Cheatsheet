@@ -18,3 +18,4 @@
               as: "Details",
             },
           },
+              countryName: { $arrayElemAt: ["$countryDetails.countryName", 0] },
