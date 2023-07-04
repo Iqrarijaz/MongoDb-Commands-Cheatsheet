@@ -1,0 +1,17 @@
+
+
+
+to import mongo dump : mongorestore dump/
+to export mongo dump : mongodump --db database_name   //first create folder form dump
+kill process on port : fuser -n tcp -k 3069
+ngrok server : ngrok http port number
+revert stash = git stash apply
+AehhkZy8WaQfhPCfgtrry6
+
+
+express section and passport 
+error status code
+
+express rate limit
+
+
